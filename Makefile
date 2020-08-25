@@ -6,7 +6,7 @@
 #    By: lhay <marvin@42.fr>                        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/08/24 23:23:28 by lhay              #+#    #+#              #
-#    Updated: 2020/08/25 00:10:00 by lhay             ###   ########.fr        #
+#    Updated: 2020/08/25 12:59:27 by avarricc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,4 +39,4 @@ clean:
 fclean: clean
 	${RM} ${NAME}
 
-re: fclean all
+re: fclean all clean
